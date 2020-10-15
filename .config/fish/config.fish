@@ -27,5 +27,11 @@ end
 # set miniconda path
 # eval /home/wonjun/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 
-# set rice command
-alias rice='git --git-dir=$HOME/.rice --work-tree=$HOME'
+# set fd
+alias fd='fdfind'
+
+# set dotbare
+set -U fish_user_paths ~/.dotbare
+alias dotbare="$HOME/.dotbare/dotbare"
+# set DOTBARE_DIR="$HOME/.cfg"
+# set DOTBARE_TREE="$HOME"
